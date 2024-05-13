@@ -803,18 +803,41 @@ display: flex;
 }
 
 .contactform {
-  background-color: green;
   height: 560px;
   margin-top: 30px;
   width: 600px;
+  display: flex;
   flex-wrap: wrap;
 }
 
  .contactgroup {
-
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
  } 
-
-
+ .contactgroup input{
+  width: 200px;
+  height: 35px;
+ } 
+ .contactgroup select{
+  width: 200px;
+  height: 35px;
+ } 
+ textarea {
+  width: 460px;
+ }
+ #agree {
+  width: 15px;
+ }
+ .contactgroup button {
+  width: 460px;
+  height: 40px;
+  background-color: #007bff;
+  border-radius: 5px; 
+ }
+.check{
+  margin-left: 30px;
+}
 
  .Subscribe {
   background-color: #063970;
