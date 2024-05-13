@@ -26,12 +26,14 @@ nav{
   justify-content: space-between;
   align-items: center;
   font-family: "Raleway", sans-serif;
-  height: 150px;
+  height: 110px;
   background-color: #ffffff;
   z-index: 4;
   /*  */
   position: fixed;
   margin-top: 0;
+  margin-left: 100px;
+  margin: right 200px;
   
 }
 
@@ -39,7 +41,8 @@ nav .logo{
   display: flex;
   align-items: center;
   color: #333;
-  margin-right: 270px;
+  margin-right: 300px;
+  /* margin-left: 100px; */
 }
 
 nav ul{
@@ -217,7 +220,7 @@ nav .btn{
 }
 .baner-right {
   width: 50%;
-  background-color: #ffd700;
+  background-color: #007bff;
   text-align: center;
   align-content: center;
 }
@@ -500,6 +503,7 @@ border: 1px solid silver;
   text-align: center;
   align-content: center;
   color: white;
+  line-height: 2;
 }
 .appmntbtn {
   height: 50px;
@@ -578,18 +582,29 @@ background-color: #999;
 .contacte p, h1{
   width: 50px;
   text-align: left;
+  line-height: 2;
 }
 
 .contacte .right text p{
   align-items: center;
   width: 70px;
 }
-.button {
+/* .button {
   color: rebeccapurple;
   width: 300px;
   color : black;
   border: #007bff;
   border-radius: 3px solid #007bff ;
+} */
+
+.doctorbtn {
+  width: 140px;
+  height: 50px;
+  color : black;
+  border: #007bff;
+  border-radius: 10px;
+  border: 2px solid #007bff;
+  margin-top: 15px;
 }
 
 .baner3 {
@@ -802,16 +817,35 @@ display: flex;
 
 
  .Subscribe {
-  background-color: rebeccapurple;
+  background-color: #063970;
   height: 200px;
   margin-left: 200px;
   margin-right: 200px;
+  margin-top: 40px;
+  padding: 70px;
+  border-radius: 20px;
+  
 }
 
 .subsgrpform {
-  width: 300px;
+  width: 180px;
   display: flex;
+  height: 35px;
+  display: flex;
+  width: 500px;
+  margin-left: 220px;  
 }
+.subsgrpform button {
+  width: 150px;
+}
+
+.Subscribe h2 {
+  color: #ffffff;
+  margin-left: 300px;
+  line-height: 2;
+}
+
+
 
 
 
@@ -819,7 +853,7 @@ display: flex;
 .footersecs {
   display: flex;
   background-color: #007bff;
-  height: 200px;
+  height: 210px;
   line-height: 2;
   color: #ffffff;
   margin-top: 60px;
