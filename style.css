@@ -380,19 +380,20 @@ font-size: 25px;
 }
 
 .hware {
-  width: 50%;
+  width: 70%;
   font-size: 40;
 }
 
 .history {
   width: 50%;
   text-align: right;
-
-}
-.hware span {
-  color: #ffd700;
   
 } 
+
+.hware h1{
+  color: #ffd700;
+  
+}
 .ourhistory .historytext{
  
 background-color: #f8fafc;
@@ -557,6 +558,7 @@ width: 50%;
 }
 
 
+
 .client {
   background-color: #007bff;
   /* width: 500px; */
@@ -678,10 +680,25 @@ display: flex;
   height: 35px; 
  } 
 
+ .phone select{
+  position: absolute;
+  left: 5px;
+  width: 50px;
+  bottom: 8px;
+  border: none;
+  background-color: transparent;
+
+
+ }
+ .phone {
+  position: relative;
+ }
+
 
  textarea {
   width: 460px;
   height: 100px;
+  resize: none;
  }
  #agree {
   width: 15px;
@@ -768,11 +785,13 @@ display: flex;
 }
 .sec3 {
   border-right: 1px solid #bcbc9c;
-  width: 230px;
+  width: 250px;
   margin-left: 50px;
   height: 190px;
   margin-top: 20px;
 }
+
+
 
 .link p {
   display: flex;
@@ -787,6 +806,8 @@ display: flex;
   height: 180px;
   margin-top: 20px;
 }
+
+
 
 .copyright {
   background-color: #40739e;
