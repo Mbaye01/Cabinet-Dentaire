@@ -925,7 +925,7 @@ display: flex;
   width: 260px;
   margin-left: 60px;
   height: 180px;
-  margin-top: 20px;
+  margin-top: 30px;
 
 }
 .sec3 {
@@ -945,7 +945,7 @@ display: flex;
 
 .copyright {
   background-color: #40739e;
-  height: 40px;
+  height: 50px;
   text-align: center;
   color :#ffffff;
   margin-top: 10px;
