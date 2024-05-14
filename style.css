@@ -244,156 +244,6 @@ align-items: center;
 }
 
 
-/* @media screen and (max-width: 1024px) {
-  nav .mobile_menu_btn i{
-      display: block;
-  }
-
-  nav ul{
-      position: fixed;
-      top: 120px;
-      left: -100%;
-      background-color: #d17721;
-      width: 100%;
-      height: 100vh;
-      display: block;
-      text-align: center;
-      transition: all 0.3s ease-in;
-  }
-
-  #click:checked ~ ul{
-      left: 0%;
-  }
-
-  #click:checked ~ .mobile_menu_btn i::before{
-      content: "\f00d";
-  }
-
-  nav ul li{
-      display: block;
-      margin: 3rem 0;
-  }
-
-  .wrapper{
-      width: 90%;
-  }
-
-  .container{
-      flex-direction: column-reverse;
-  }
-
-  .illustration_image img{
-      width: 80%;
-  }
-} */
-
-/* banner1 */
-/* .banner1 {
-  background-color: #007bff;
-  color: #ffffff;
-  padding: 20px;
-  display: flex; 
-  justify-content: space-between;
-  /* margin-top: 300px; */
-/* }
-.banner1 .baner1-right {
-  background-color: #ffd700;
-  width: 500px;
-} */ 
-/* 
-.banner1 h1, p {
-  text-align: left;
-  margin-bottom: 10px;
-  margin: 30px;
-  text-align: center;
-}
-
-.banner-icons {
-  display: flex;
-  justify-content: center;
-}
-
-.banner-icon img {
-  margin: 0 20px;
-  border: 30px;
-  background-color: #ffffff;
-  border-radius: 10px;
-  margin-top: 200px;
-  display: flex;
-  width: 50px; 
-
-}
-.baniere_icons{
-  margin: 0 20px;
-  border: 30px;
-  background-color: #ffffff;
-  border-radius: 10px;
-  margin-top: 300px;
-  display: flex;
-  width: 1000px; 
-  justify-content: space-between;
-}
-
-
-.banner1 {
-  background-color: #007bff;
-  color: #ffffff;
-  padding: 20px;
-  text-align: center; /* Aligne le contenu au centre 
-}
-*/
-/* .banner1 p, h1 {
-  margin-bottom: 10px;
-  text-align: center;
-} */
-
-/* .banner1 button {
-  padding: 10px 20px;
-  color: #ffffff;
-  border: 1px solid #ffffff;
-  border-radius: 5px;
-  cursor: pointer;
-  width: 200px;
-  border-radius: 6px;
-  background-color: transparent;
-  border-color: #ffffff;
-} 
-
-.baner2 {
-
-  justify-content: center; 
-  background-color: #007bff;
-  color: #ffffff;
-  padding: 20px;
-  display: flex;
-  margin-top: 10px;
-}
-
-.baner2 h1 {
-color: #ffffff;
-font-size: 20px;
-}
-
-.baner2 span{
-  font-weight: bold;
-}
-
-
-.baner2 button {
-  border: 1px solid #ffffff;
-  width: 30%;
-  padding: 10px 20px;
-  color: #ffffff;
-  border: 1px solid #ffffff;
-  border-radius: 5px;
-  cursor: pointer;
-  width: 200px;
-  border-radius: 6px;
-  background-color: transparent;
-  border-color: #ffffff;
-} */
-
-
 .services {
   height: 500px;
   background-color: #ffffff;
@@ -410,7 +260,9 @@ font-size: 20px;
 .services .image img {
   width:300px;
   height: 300px;
-  margin-top: 80px;
+  margin-top: 70px;
+  margin-left: 100px;
+
 }
 
 .services .image {
@@ -447,14 +299,14 @@ font-size: 20px;
   height: 130px;
   display: flex;
   width: 80%;
-  margin-left: 150px;
+  margin-left: 120px;
   margin-top: 10px;
 }
 .specialkey::after {
   content: "";
   width: 69%;
   height: 2px;
-  left: 300px;
+  left: 310px;
   transform:translateY(80px);
   position: absolute;
   background-color: #bcbcbc9e;
@@ -609,13 +461,6 @@ margin-left: 50px;
   align-items: center;
   width: 70px;
 }
-/* .button {
-  color: rebeccapurple;
-  width: 300px;
-  color : black;
-  border: #007bff;
-  border-radius: 3px solid #007bff ;
-} */
 
 .doctorbtn {
   width: 140px;
@@ -748,7 +593,7 @@ width: 50%;
 .clients {
   display: flex;
   background-color: #007bff;
-  height: 360px;
+  height: 420px;
   width: 100%;
   margin-left: 100px;
   display: flex;
@@ -758,6 +603,8 @@ width: 50%;
   margin-left: 0px;
 
   }
+
+
 
   .imagecust {
     background-color: #ffffff;
@@ -792,6 +639,16 @@ width: 50%;
   .imagecust h3 {
     color: black;
     margin-left: 20px;
+  }
+
+  .right span {
+    color: rgb(205, 219, 12);
+    width: 300px;
+    font-size: 80px;
+    margin-left: 400px;
+    margin-top: 100px;
+    padding: 30px;
+    margin-top: 60px;
   }
 
 
