@@ -64,10 +64,6 @@ nav ul li a{
   transition: all 0.3s ease;
 }
 
-/* nav ul li a:hover{
-  color: #007bff;
-} */
-
 nav .active{
   color: #007bff;
 }
@@ -281,7 +277,6 @@ align-items: center;
 }
 
 .servleft {
-  /* border: 1px solid black; */
   width: 300px;
   height: 300px;
   padding: 50px;
@@ -295,7 +290,6 @@ align-items: center;
   margin-left: 200px;
   font-size: 30px;
   margin-top: 100px;
-
 }
 
 
@@ -340,7 +334,6 @@ width: 80%;
   margin-left: 150px;
   display: flex;
   flex-wrap: wrap;
-  /* padding-left: 100px; */
 }
 
 .specialitems .items {
@@ -390,6 +383,13 @@ margin-top: 70px;
   font-size: 40;
 }
 
+.hware .app{
+  color: #ffd700;
+}
+
+.hware span{
+  color: #ffd700;
+}
 .history {
   width: 50%;
   text-align: right;
@@ -436,43 +436,14 @@ margin-left: 50px;
 
 .hwarhistory::after {
   content: "";
-  width: 80%;
+  width: 70%;
   height: 2px;
   left: 95px;
   transform:translateY(60px);
   position: absolute;
   background-color: #bcbcbc9e;
-
 }
 
-.doctorr {
-  font-weight: bold;
-  margin-left: 885px;
-}
-
-.make {
-  margin-left: 100px;
-  display: flex;
-}
-
-.makdoctoc {
-  width: 400px;
-  height: 350px;
-  margin-top: 100px;
-  margin-right: 30px;
-  display: flex;
-}
-
-.makdoctoc::after {
-  content: "";
-  width: 80%;
-  height: 2px;
-  left: 95px;
-  transform:translateY(60px);
-  position: absolute;
-  background-color: #bcbcbc9e;
-
-}
  
 .cercleimage {
   background-color: #ffffff;
@@ -588,8 +559,6 @@ font-weight: 600;
 }
 .doc span {
   color: #ffd700;
-  /* font-size: 45px; */
-/* font-weight: 600; */
 text-align: right;
 width: 50%;
   
@@ -599,7 +568,6 @@ width: 50%;
 
 .client {
   background-color: #007bff;
-  /* width: 500px; */
   height: 400px;
   display: flex;
   justify-content: space-between;
@@ -841,7 +809,6 @@ display: flex;
 
 }
 .sec4 {
-  /* border-right: 1px solid beige; */
   width: 260px;
   margin-left: 50px;
   height: 180px;
